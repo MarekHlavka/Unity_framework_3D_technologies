@@ -1,0 +1,1318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1742147772565457057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8618406247765468155}
+  - component: {fileID: 7951445119600942511}
+  - component: {fileID: 6479667369879710178}
+  - component: {fileID: 2028518679428287553}
+  - component: {fileID: 6286495118117747594}
+  - component: {fileID: 3095302997234265651}
+  m_Layer: 0
+  m_Name: LKG Legacy [1]
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8618406247765468155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742147772565457057}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2240675516319572289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7951445119600942511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742147772565457057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8741a64bf406d4d837e88bbb59fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastSavedVersion:
+    major: 0
+    minor: 0
+    patch: -1
+  forceDisplayIndex: 1
+  targetDisplay: 1
+  targetLKG: Looking Glass - 8.9" (Legacy)
+  emulatedDevice: 4
+  preview2D: 0
+  showHologramPreview: 0
+  quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+  useQuiltAsset: 0
+  quiltPreset: -1
+  customRenderSettings:
+    quiltWidth: 3360
+    quiltHeight: 3360
+    viewColumns: 8
+    viewRows: 6
+    numViews: 48
+    aspect: 0.75
+  renderStack:
+    steps:
+    - isEnabled: 1
+      renderType: 0
+      quiltTexture: {fileID: 0}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 0}
+    - isEnabled: 1
+      renderType: 1
+      quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 61977465284717904}
+  cameraProperties:
+    hologramCamera: {fileID: 7951445119600942511}
+  gizmos:
+    hologramCamera: {fileID: 7951445119600942511}
+  events:
+    hologramCamera: {fileID: 7951445119600942511}
+  optimization:
+    hologramCamera: {fileID: 7951445119600942511}
+  debugging:
+    hologramCamera: {fileID: 7951445119600942511}
+  transformMode: 0
+  nearClipFactor: 1.5
+  farClipFactor: 4
+  nearClipPlane: 0.01
+  farClipPlane: 45
+  focalPlane: 40.721733
+  size: 5
+  sizeMode: 0
+  clearFlags: 2
+  background: {r: 0, g: 0, b: 0, a: 1}
+  cullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  fov: 14
+  depth: 0
+  renderingPath: -1
+  useOcclusionCulling: 1
+  allowHDR: 1
+  allowMSAA: 1
+  allowDynamicResolution: 0
+  useFrustumTarget: 0
+  frustumTarget: {fileID: 0}
+  centerOffset: 0
+  horizontalFrustumOffset: 0
+  verticalFrustumOffset: 0
+  depthiness: 1
+  drawHandles: 1
+  frustumColor: {r: 0, g: 1, b: 0, a: 1}
+  middlePlaneColor: {r: 0.5882353, g: 0.19607843, b: 1, a: 1}
+  handleColor: {r: 0.29411766, g: 0.39215687, b: 1, a: 1}
+  onViewRendered:
+    m_PersistentCalls:
+      m_Calls: []
+  viewInterpolation: 0
+  reduceFlicker: 0
+  fillGaps: 0
+  blendViews: 0
+  showAllObjects: 0
+  onlyShowView: -1
+  onlyRenderOneView: 0
+  manualCalibrationMode: 0
+  calibrationFile: {fileID: 0}
+  manualCalibration:
+    serial: PORT
+    pitch: 10
+    slope: 0
+    center: 0
+    fringe: 0
+    viewCone: 0
+    dpi: 0
+    screenWidth: 1536
+    screenHeight: 2048
+    flipImageX: 0
+    xpos: 0
+    ypos: 0
+    LKGname: 
+    aspect: 0.75
+--- !u!81 &6479667369879710178
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742147772565457057}
+  m_Enabled: 1
+--- !u!114 &2028518679428287553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742147772565457057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d76772b6a1d47347875985d58d514c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Screenshot${take}
+  folderPath:
+    root: 0
+    value: Recordings
+    forceAssetFolder: 0
+  captureMode: 4
+  screenshotPreset: -1
+  recordingPreset: -1
+  startFrame: 0
+  endFrame: 30
+  startTime: 0
+  endTime: 1
+  recordOnStart: 0
+  exitPlayModeOnStop: 1
+  customRecordingSettings:
+    codec: 0
+    frameRate: 30
+    compression: 20
+    targetBitrateInMegabits: 60
+    cameraOverrideSettings:
+      renderSettings:
+        quiltWidth: 3360
+        quiltHeight: 3360
+        viewColumns: 8
+        viewRows: 6
+        numViews: 48
+        aspect: 0.75
+      nearClipFactor: 0.5
+  customScreenshotSettings:
+    renderSettings:
+      quiltWidth: 3360
+      quiltHeight: 3360
+      viewColumns: 8
+      viewRows: 6
+      numViews: 48
+      aspect: 0.75
+    nearClipFactor: 0.5
+  syncedVideoPlayer: {fileID: 0}
+  legacyShortcuts:
+    screenshot2D: 290
+    screenshot3D: 291
+--- !u!20 &6286495118117747594
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742147772565457057}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 38.221733
+  far clip plane: 60.721733
+  field of view: 14
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &3095302997234265651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742147772565457057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afc7b8c7fdd3d047b6f41de3de76685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiltFilePath: 
+  blockTitle: 
+  blockDescription: 
+--- !u!1 &1983568311398303243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5593720924303502132}
+  - component: {fileID: 7861662644904603207}
+  - component: {fileID: 509775706635607818}
+  - component: {fileID: 8051079369473192482}
+  - component: {fileID: 3522624147709702109}
+  - component: {fileID: 2356872638381354379}
+  m_Layer: 0
+  m_Name: LKG 32 [3]
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5593720924303502132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983568311398303243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2240675516319572289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7861662644904603207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983568311398303243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8741a64bf406d4d837e88bbb59fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastSavedVersion:
+    major: 0
+    minor: 0
+    patch: -1
+  forceDisplayIndex: 1
+  targetDisplay: 1
+  targetLKG: Looking Glass - 32"
+  emulatedDevice: 2
+  preview2D: 0
+  showHologramPreview: 0
+  quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+  useQuiltAsset: 0
+  quiltPreset: -1
+  customRenderSettings:
+    quiltWidth: 3360
+    quiltHeight: 3360
+    viewColumns: 8
+    viewRows: 6
+    numViews: 48
+    aspect: 0.75
+  renderStack:
+    steps:
+    - isEnabled: 1
+      renderType: 0
+      quiltTexture: {fileID: 0}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 0}
+    - isEnabled: 1
+      renderType: 1
+      quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 61977465284717904}
+  cameraProperties:
+    hologramCamera: {fileID: 7861662644904603207}
+  gizmos:
+    hologramCamera: {fileID: 7861662644904603207}
+  events:
+    hologramCamera: {fileID: 7861662644904603207}
+  optimization:
+    hologramCamera: {fileID: 7861662644904603207}
+  debugging:
+    hologramCamera: {fileID: 7861662644904603207}
+  transformMode: 0
+  nearClipFactor: 1.5
+  farClipFactor: 4
+  nearClipPlane: 0.01
+  farClipPlane: 45
+  focalPlane: 40.721733
+  size: 5
+  sizeMode: 0
+  clearFlags: 2
+  background: {r: 0, g: 0, b: 0, a: 1}
+  cullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  fov: 14
+  depth: 0
+  renderingPath: -1
+  useOcclusionCulling: 1
+  allowHDR: 1
+  allowMSAA: 1
+  allowDynamicResolution: 0
+  useFrustumTarget: 0
+  frustumTarget: {fileID: 0}
+  centerOffset: 0
+  horizontalFrustumOffset: 0
+  verticalFrustumOffset: 0
+  depthiness: 1
+  drawHandles: 1
+  frustumColor: {r: 0, g: 1, b: 0, a: 1}
+  middlePlaneColor: {r: 0.5882353, g: 0.19607843, b: 1, a: 1}
+  handleColor: {r: 0.29411766, g: 0.39215687, b: 1, a: 1}
+  onViewRendered:
+    m_PersistentCalls:
+      m_Calls: []
+  viewInterpolation: 0
+  reduceFlicker: 0
+  fillGaps: 0
+  blendViews: 0
+  showAllObjects: 0
+  onlyShowView: -1
+  onlyRenderOneView: 0
+  manualCalibrationMode: 0
+  calibrationFile: {fileID: 0}
+  manualCalibration:
+    serial: PORT
+    pitch: 10
+    slope: 0
+    center: 0
+    fringe: 0
+    viewCone: 0
+    dpi: 0
+    screenWidth: 1536
+    screenHeight: 2048
+    flipImageX: 0
+    xpos: 0
+    ypos: 0
+    LKGname: 
+    aspect: 0.75
+--- !u!81 &509775706635607818
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983568311398303243}
+  m_Enabled: 1
+--- !u!114 &8051079369473192482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983568311398303243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d76772b6a1d47347875985d58d514c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Screenshot${take}
+  folderPath:
+    root: 0
+    value: Recordings
+    forceAssetFolder: 0
+  captureMode: 4
+  screenshotPreset: -1
+  recordingPreset: -1
+  startFrame: 0
+  endFrame: 30
+  startTime: 0
+  endTime: 1
+  recordOnStart: 0
+  exitPlayModeOnStop: 1
+  customRecordingSettings:
+    codec: 0
+    frameRate: 30
+    compression: 20
+    targetBitrateInMegabits: 60
+    cameraOverrideSettings:
+      renderSettings:
+        quiltWidth: 3360
+        quiltHeight: 3360
+        viewColumns: 8
+        viewRows: 6
+        numViews: 48
+        aspect: 0.75
+      nearClipFactor: 0.5
+  customScreenshotSettings:
+    renderSettings:
+      quiltWidth: 3360
+      quiltHeight: 3360
+      viewColumns: 8
+      viewRows: 6
+      numViews: 48
+      aspect: 0.75
+    nearClipFactor: 0.5
+  syncedVideoPlayer: {fileID: 0}
+  legacyShortcuts:
+    screenshot2D: 290
+    screenshot3D: 291
+--- !u!20 &3522624147709702109
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983568311398303243}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 38.221733
+  far clip plane: 60.721733
+  field of view: 14
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &2356872638381354379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983568311398303243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afc7b8c7fdd3d047b6f41de3de76685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiltFilePath: 
+  blockTitle: 
+  blockDescription: 
+--- !u!1 &2715832698755095262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2240675516319572289}
+  - component: {fileID: 6050284870206655857}
+  m_Layer: 0
+  m_Name: LookingGlassCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2240675516319572289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715832698755095262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5684449259520436681}
+  - {fileID: 912635832773358590}
+  - {fileID: 5593720924303502132}
+  - {fileID: 8618406247765468155}
+  - {fileID: 518089004289485208}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6050284870206655857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715832698755095262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb12c44d249d4654f87801c1037772c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lkg_index: 2
+  near_plane: 1
+  far_plane: 10
+  size: 50
+  lkg_cameras:
+  - {fileID: 6612211957916845893}
+  - {fileID: 1742147772565457057}
+  - {fileID: 3926647584461831139}
+  - {fileID: 1983568311398303243}
+--- !u!1 &3926647584461831139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912635832773358590}
+  - component: {fileID: 3053850879653835384}
+  - component: {fileID: 4536040262876947786}
+  - component: {fileID: 4578350913884231751}
+  - component: {fileID: 9196890286120007317}
+  - component: {fileID: 6628706291704036261}
+  m_Layer: 0
+  m_Name: LKG 16 [2]
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &912635832773358590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926647584461831139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2240675516319572289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3053850879653835384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926647584461831139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8741a64bf406d4d837e88bbb59fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastSavedVersion:
+    major: 0
+    minor: 0
+    patch: -1
+  forceDisplayIndex: 1
+  targetDisplay: 1
+  targetLKG: Looking Glass - 16"
+  emulatedDevice: 1
+  preview2D: 0
+  showHologramPreview: 0
+  quiltTexture: {fileID: 0}
+  useQuiltAsset: 0
+  quiltPreset: -1
+  customRenderSettings:
+    quiltWidth: 3360
+    quiltHeight: 3360
+    viewColumns: 8
+    viewRows: 6
+    numViews: 48
+    aspect: 0.75
+  renderStack:
+    steps:
+    - isEnabled: 1
+      renderType: 0
+      quiltTexture: {fileID: 0}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 0}
+    - isEnabled: 1
+      renderType: 1
+      quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 61977465284717904}
+  cameraProperties:
+    hologramCamera: {fileID: 3053850879653835384}
+  gizmos:
+    hologramCamera: {fileID: 3053850879653835384}
+  events:
+    hologramCamera: {fileID: 3053850879653835384}
+  optimization:
+    hologramCamera: {fileID: 3053850879653835384}
+  debugging:
+    hologramCamera: {fileID: 3053850879653835384}
+  transformMode: 0
+  nearClipFactor: 1.5
+  farClipFactor: 4
+  nearClipPlane: 0.01
+  farClipPlane: 45
+  focalPlane: 40.721733
+  size: 5
+  sizeMode: 0
+  clearFlags: 2
+  background: {r: 0, g: 0, b: 0, a: 1}
+  cullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  fov: 14
+  depth: 0
+  renderingPath: -1
+  useOcclusionCulling: 1
+  allowHDR: 1
+  allowMSAA: 1
+  allowDynamicResolution: 0
+  useFrustumTarget: 0
+  frustumTarget: {fileID: 0}
+  centerOffset: 0
+  horizontalFrustumOffset: 0
+  verticalFrustumOffset: 0
+  depthiness: 1
+  drawHandles: 1
+  frustumColor: {r: 0, g: 1, b: 0, a: 1}
+  middlePlaneColor: {r: 0.5882353, g: 0.19607843, b: 1, a: 1}
+  handleColor: {r: 0.29411766, g: 0.39215687, b: 1, a: 1}
+  onViewRendered:
+    m_PersistentCalls:
+      m_Calls: []
+  viewInterpolation: 0
+  reduceFlicker: 0
+  fillGaps: 0
+  blendViews: 0
+  showAllObjects: 0
+  onlyShowView: -1
+  onlyRenderOneView: 0
+  manualCalibrationMode: 0
+  calibrationFile: {fileID: 0}
+  manualCalibration:
+    serial: PORT
+    pitch: 10
+    slope: 0
+    center: 0
+    fringe: 0
+    viewCone: 0
+    dpi: 0
+    screenWidth: 1536
+    screenHeight: 2048
+    flipImageX: 0
+    xpos: 0
+    ypos: 0
+    LKGname: 
+    aspect: 0.75
+--- !u!81 &4536040262876947786
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926647584461831139}
+  m_Enabled: 1
+--- !u!114 &4578350913884231751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926647584461831139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d76772b6a1d47347875985d58d514c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Screenshot${take}
+  folderPath:
+    root: 0
+    value: Recordings
+    forceAssetFolder: 0
+  captureMode: 4
+  screenshotPreset: -1
+  recordingPreset: -1
+  startFrame: 0
+  endFrame: 30
+  startTime: 0
+  endTime: 1
+  recordOnStart: 0
+  exitPlayModeOnStop: 1
+  customRecordingSettings:
+    codec: 0
+    frameRate: 30
+    compression: 20
+    targetBitrateInMegabits: 60
+    cameraOverrideSettings:
+      renderSettings:
+        quiltWidth: 3360
+        quiltHeight: 3360
+        viewColumns: 8
+        viewRows: 6
+        numViews: 48
+        aspect: 0.75
+      nearClipFactor: 0.5
+  customScreenshotSettings:
+    renderSettings:
+      quiltWidth: 3360
+      quiltHeight: 3360
+      viewColumns: 8
+      viewRows: 6
+      numViews: 48
+      aspect: 0.75
+    nearClipFactor: 0.5
+  syncedVideoPlayer: {fileID: 0}
+  legacyShortcuts:
+    screenshot2D: 290
+    screenshot3D: 291
+--- !u!20 &9196890286120007317
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926647584461831139}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 38.221733
+  far clip plane: 60.721733
+  field of view: 14
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &6628706291704036261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926647584461831139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afc7b8c7fdd3d047b6f41de3de76685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiltFilePath: 
+  blockTitle: 
+  blockDescription: 
+--- !u!1 &6612211957916845893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5684449259520436681}
+  - component: {fileID: 4798650885139784577}
+  - component: {fileID: 2057454307612330373}
+  - component: {fileID: 7717516758546521294}
+  - component: {fileID: 8177635921349069047}
+  - component: {fileID: 8063148174809059283}
+  m_Layer: 0
+  m_Name: LKG Portrait [0]
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5684449259520436681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612211957916845893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00000059957824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2240675516319572289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4798650885139784577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612211957916845893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8741a64bf406d4d837e88bbb59fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastSavedVersion:
+    major: 0
+    minor: 0
+    patch: -1
+  forceDisplayIndex: 1
+  targetDisplay: 1
+  targetLKG: Looking Glass - Portrait
+  emulatedDevice: 0
+  preview2D: 0
+  showHologramPreview: 0
+  quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+  useQuiltAsset: 0
+  quiltPreset: -1
+  customRenderSettings:
+    quiltWidth: 3360
+    quiltHeight: 3360
+    viewColumns: 8
+    viewRows: 6
+    numViews: 48
+    aspect: 0.75
+  renderStack:
+    steps:
+    - isEnabled: 1
+      renderType: 0
+      quiltTexture: {fileID: 0}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 0}
+    - isEnabled: 1
+      renderType: 1
+      quiltTexture: {fileID: 8400000, guid: 74c7f332e47ba8a4babbabe0c753e0ac, type: 2}
+      renderSettings:
+        quiltWidth: 0
+        quiltHeight: 0
+        viewColumns: 0
+        viewRows: 0
+        numViews: 0
+        aspect: 0
+      texture: {fileID: 0}
+      postProcessCamera: {fileID: 61977465284717904}
+  cameraProperties:
+    hologramCamera: {fileID: 4798650885139784577}
+  gizmos:
+    hologramCamera: {fileID: 4798650885139784577}
+  events:
+    hologramCamera: {fileID: 4798650885139784577}
+  optimization:
+    hologramCamera: {fileID: 4798650885139784577}
+  debugging:
+    hologramCamera: {fileID: 4798650885139784577}
+  transformMode: 0
+  nearClipFactor: 1
+  farClipFactor: 10
+  nearClipPlane: 15.721733
+  farClipPlane: 240.72174
+  focalPlane: 407.21732
+  size: 50
+  sizeMode: 0
+  clearFlags: 2
+  background: {r: 0, g: 0, b: 0, a: 1}
+  cullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  fov: 14
+  depth: 0
+  renderingPath: -1
+  useOcclusionCulling: 1
+  allowHDR: 1
+  allowMSAA: 1
+  allowDynamicResolution: 0
+  useFrustumTarget: 0
+  frustumTarget: {fileID: 0}
+  centerOffset: 0
+  horizontalFrustumOffset: 0
+  verticalFrustumOffset: 0
+  depthiness: 1
+  drawHandles: 1
+  frustumColor: {r: 0, g: 1, b: 0, a: 1}
+  middlePlaneColor: {r: 0.5882353, g: 0.19607843, b: 1, a: 1}
+  handleColor: {r: 0.29411766, g: 0.39215687, b: 1, a: 1}
+  onViewRendered:
+    m_PersistentCalls:
+      m_Calls: []
+  viewInterpolation: 0
+  reduceFlicker: 0
+  fillGaps: 0
+  blendViews: 0
+  showAllObjects: 0
+  onlyShowView: -1
+  onlyRenderOneView: 0
+  manualCalibrationMode: 0
+  calibrationFile: {fileID: 0}
+  manualCalibration:
+    serial: PORT
+    pitch: 10
+    slope: 0
+    center: 0
+    fringe: 0
+    viewCone: 0
+    dpi: 0
+    screenWidth: 1536
+    screenHeight: 2048
+    flipImageX: 0
+    xpos: 0
+    ypos: 0
+    LKGname: 
+    aspect: 0.75
+--- !u!81 &2057454307612330373
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612211957916845893}
+  m_Enabled: 1
+--- !u!114 &7717516758546521294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612211957916845893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d76772b6a1d47347875985d58d514c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Screenshot${take}
+  folderPath:
+    root: 0
+    value: Recordings
+    forceAssetFolder: 0
+  captureMode: 4
+  screenshotPreset: -1
+  recordingPreset: -1
+  startFrame: 0
+  endFrame: 30
+  startTime: 0
+  endTime: 1
+  recordOnStart: 0
+  exitPlayModeOnStop: 1
+  customRecordingSettings:
+    codec: 0
+    frameRate: 30
+    compression: 20
+    targetBitrateInMegabits: 60
+    cameraOverrideSettings:
+      renderSettings:
+        quiltWidth: 3360
+        quiltHeight: 3360
+        viewColumns: 8
+        viewRows: 6
+        numViews: 48
+        aspect: 0.75
+      nearClipFactor: 0.5
+  customScreenshotSettings:
+    renderSettings:
+      quiltWidth: 3360
+      quiltHeight: 3360
+      viewColumns: 8
+      viewRows: 6
+      numViews: 48
+      aspect: 0.75
+    nearClipFactor: 0.5
+  syncedVideoPlayer: {fileID: 0}
+  legacyShortcuts:
+    screenshot2D: 290
+    screenshot3D: 291
+--- !u!20 &8177635921349069047
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612211957916845893}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 38.221733
+  far clip plane: 60.721733
+  field of view: 14
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &8063148174809059283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612211957916845893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afc7b8c7fdd3d047b6f41de3de76685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiltFilePath: 
+  blockTitle: 
+  blockDescription: 
+--- !u!1 &8475722104244105246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 518089004289485208}
+  - component: {fileID: 61977465284717904}
+  - component: {fileID: 1279282341600766856}
+  - component: {fileID: 4955206526467286394}
+  m_Layer: 0
+  m_Name: PostProcessCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &518089004289485208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475722104244105246}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2240675516319572289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &61977465284717904
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475722104244105246}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 1
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1279282341600766856
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475722104244105246}
+  m_Enabled: 0
+--- !u!114 &4955206526467286394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475722104244105246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132c839ff82916f4a90428352fd1117a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 428f796a89d8345489d9e2f108558e61, type: 2}

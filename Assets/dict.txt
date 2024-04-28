@@ -1,0 +1,47 @@
+Folder PATH listing
+Volume serial number is 74AA-FC0D
+C:.
++---.utmp
++---Assets
+|   +---Adaptive Performance
+|   |   \---Settings
+|   +---Graphy - Ultimate Stats Monitor
+|   +---Leia
+|   +---LookingGlass
+|   +---LookingGlass Post-Processing 3.2.2
+|   +---Oculus
+|   +---Plugins
+|   +---Proxy Games
+|   +---QuickOutline
+|   +---Resources
+|   +---Scenes
+|   +---Selcuk Gerceker
+|   +---StreamingAssets
+|   +---TextMesh Pro
+|   +---XR
+|   +---_Custom
+|   |   +---.VSCodeCounter
+|   |   +---Aditional
+|   |   +---Classes
+|   |   +---Images
+|   |   +---Input
+|   |   +---Levels_data
+|   |   +---Materials
+|   |   +---Prefabs
+|   |   +---Scenes
+|   |   +---Scripts
+|   |   +---Shaders
+|   |   +---ShaderTest
+|   |   +---Textures
+|   |   \---Video
+|   \---_TerrainAutoUpgrade
++---Build
+|   +---android
+|   \---Win
++---Library
++---Logs
++---obj
++---Packages
++---ProjectSettings
+\---UserSettings
+    \---Layouts
